@@ -1,4 +1,4 @@
-const GOOGLE_SHEETS_WEB_APP_URL = import.meta.env.VITE_GOOGLE_SHEETS_WEB_APP_URL;
+conconst GOOGLE_SHEETS_WEB_APP_URL = "https://script.google.com/macros/s/AKfycbzIVtVQmC_8ALq7rEMGmWyZ-fvzY_c1-MCRbo_wqkug-kpDij6nbOJrnqsl0orW/exec";
 const STORAGE_KEY = "ca-ai-readiness:results";
 
 export async function saveAssessmentResult(payload) {
