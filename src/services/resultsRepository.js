@@ -1,5 +1,4 @@
-conconst GOOGLE_SHEETS_WEB_APP_URL = "https://script.google.com/macros/s/AKfycbzIVtVQmC_8ALq7rEMGmWyZ-fvzY_c1-MCRbo_wqkug-kpDij6nbOJrnqsl0orW/exec";
-const STORAGE_KEY = "ca-ai-readiness:results";
+const GOOGLE_SHEETS_WEB_APP_URL = "https://script.google.com/macros/s/AKfycbzlVtVQmC_8ALq7rEMGmWyZ-fvzY_c1-MCRbo_wqkug-kpDij6nbOJrnqsI0orWmUBn/exec";
 
 export async function saveAssessmentResult(payload) {
   const existing = JSON.parse(localStorage.getItem(STORAGE_KEY) || "[]");
