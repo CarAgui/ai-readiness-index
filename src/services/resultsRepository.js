@@ -1,5 +1,4 @@
-const GOOGLE_SHEETS_WEB_APP_URL = "https://script.google.com/macros/s/AKfycbzlVtVQmC_8ALq7rEMGmWyZ-fvzY_c1-MCRbo_wqkug-kpDij6nbOJrnqsI0orWmUBn/exec";
-
+const GOOGLE_SHEETS_WEB_APP_URL = "https://script.google.com/macros/s/AKfycbxf7quXvrqYdJ6_kKXl18-ghZht_8VExDkxb9eQ5UF045um_qEQns3QFdwHxAQcCVeQ/exec";
 export async function saveAssessmentResult(payload) {
   const existing = JSON.parse(localStorage.getItem(STORAGE_KEY) || "[]");
   const record = {
